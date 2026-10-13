@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+data/*.csv
+data/*.json
+models/*
+*.joblib
+*.pkl
+
+# Local tooling and secrets
+.env
+.env.*
+.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
